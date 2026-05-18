@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+   
+    
+}
+main{
+    height;100%;
+    width: 100%;
+     background-color: black;
+    display: grid;
+    grid-template-columns:25% 25% 25% 23% ;
+    grid-template-rows:90px 170px 170px 60px 100px ;
+    padding: 40px 40px;
+    gap: 20px;
+
+grid-template-areas: 
+ "card1 card2 card3 card4"
+ "card1 card2 card3 card5"
+ "card6 card7 card3 card5"
+ "card6 card8 card10 card10"
+ "card6 card9 card10 card10"
+;
+
+}
+.card1{
+    background-color: rgb(90, 214, 214);
+    grid-area: card1;
+    border-radius: 25px;
+    background-image: url(https://lh5.googleusercontent.com/oyAX4KBqmtzD-1i9X7bTIi1-fIgrmQXQB_hhSmIz4OY08OYAym3SzRhWtussSunASexX1JLBOglU27Oc6XY7vhlybcM4BMK5oNfpvQXMR1L91YmbD5fedvOR_M3SGnt82M9YtPKgq3isV2uZFe7UGEipHPtGGr_KUyLwrEemzcw6uDOj1BIaSAjBXg);
+   background-size: cover;
+   background-position: center;
+}
+.card2{
+    background-color: rgb(196, 220, 39);
+    grid-area: card2;
+    border-radius: 25px;
+background-image: url(Screenshot\ 2026-05-17\ 210018.png);
+ background-size: cover;
+   background-position: center;
+}
+    
+.card3{
+    background-color: rgb(113, 52, 212);
+    grid-area: card3;
+    border-radius: 25px;
+    display: flex;
+    
+    
+    
+}
+.menu{
+    padding-left: 30px;
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+
+}
+.item{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.item:hover{
+    background-color: rgb(113, 52, 212);
+    color: rgb(254, 248, 249);
+}
+
+
+
+
+.card3 .item{
+    margin:  20px;
+}
+
+.line{
+    width: 220px;
+    height: 2px;
+    background: gray;
+    margin: 20px 0px;
+}
+
+.card4{
+    background-color: rgb(254, 144, 101);
+    grid-area: card4;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linee{
+     width: 2px;
+    height: 50px;
+    background:black;
+    margin: 10px;
+    
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.left i{
+    font-size: 25px;
+}
+.right i{
+    font-size: 25px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.card5{
+    background-color: rgb(236, 19, 19);
+    grid-area: card5;
+    border-radius:25px;
+    background-image: url(https://abduzeedo.com/api/img?url=https%3A%2F%2Fcms.abduzeedo.com%2Fsites%2Fdefault%2Ffiles%2Foriginals%2F9bb47a152093021.6317cb9b6b8ec.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.card6{
+    background-color:rgb(67, 48, 48);
+    grid-area: card6;
+    border-radius:25px;
+}
+.card6 .upper{
+    font-style:normal;
+   padding: 30px;
+   
+   
+}
+h1{
+    font-size: 60px;
+}
+
+.card6 .mid{width: 360px;
+    height: 2px;
+    background: gray;
+   
+}
+
+
+.card6 .down{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 20px;
+}
+h3{
+    font-size: 25px;
+}
+.down i{
+    font-size: 60px;
+}
+.leftside{
+    display: flex;
+    gap: 10px;
+}
+.card6 img{
+   width: 270px;
+    margin-left: 60px;
+    margin-top: -5px;
+
+    
+}
+
+.card7{
+    background-color:palevioletred;
+    grid-area: card7;
+    border-radius: 25px;
+}
+.card7 .top{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 20px;
+    padding: 10px;
+}
+.top i{
+    font-size: 40px;
+}
+.bot{
+    padding: 10px;
+   
+}
+.bot p{
+    margin-top: 20px;
+    font-weight: 900;
+    opacity: 0.6;
+}
+
+
+.card8{
+    background-color: rgb(43, 42, 42);
+    grid-area: card8;
+    border-radius: 25px;
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-size: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.card9{
+    background-color: rgb(230, 241, 104);
+    grid-area: card9;
+    border-radius:25px;
+    display: flex;
+    align-items:flex-start;
+    
+    gap: 5px;
+}
+
+.card9 img{
+     width: 90px;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 5px;
+   
+}
+.text {
+    display:flex;
+    flex-direction: column;
+   
+}
+
+.text h3{
+    margin-top: 15px;
+}
+.text p{
+    
+    margin-top: 20px;
+}
+.card9 i{
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.card10{
+    background-color:lightgreen;
+    grid-area: card10;
+    border-radius:25px;
+    display: flex;
+    justify-content: space-between;
+}
+.lh h1{
+    font-size: 30px;
+padding: 20px;
+}
+.lh p{
+    font-size: 20px;
+    padding: 20px
+}
+.rh{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+.rh h2{
+   
+    font-size: 80px;
+   
+}
+.stars{
+    display: flex;
+   gap: 15px;
+   justify-content: center;
+   margin-right: 10px;
+}
+button{
+   align-self: flex-start;
+  
+    border: none;
+    padding: 15px 40px;
+    margin: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+#pls{
+    margin-right: 0px;
+}
+#yes{
+    margin-right: 60px;
+}

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+.navbar{
+    display: flex;
+    position: absolute;
+    width:100%;
+    box-sizing: border-box;
+    z-index: 10;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    color: white;
+   
+ 
+
+}
+.navlinks{
+    display: flex;
+    gap: 50px;
+    color: white;
+    text-decoration: none;
+}
+.logo img{
+    width: 200px;
+}
+.hero{
+    height: 100vh;
+    position: relative;
+    background-image:url(https://prottushd.github.io/Shinsei-village/image/main-image.png);
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icons{
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+#container{
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 20;
+}
+h1{
+    font-style: inherit;
+    font-size:70px;
+    font-weight: 700;
+    z-index: 10;
+}
+h3{
+    font-size:15px;
+    font-weight:100px ;
+}
+.navlinks a{
+    color: white;
+    text-decoration:none;
+    font-weight: 600;
+}
+button{
+    margin: 20px;
+    padding: 10px;
+    color: black;
+    background-color:rgb(233, 136, 40);
+    font-style: inherit;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+     z-index:30;
+}
+button:hover{
+background-color:black;
+color:white;
+}
+.upper{
+    font-style: italic;
+    position: relative;
+    right: 170px;
+}
+.lower{
+    font-style: italic;
+    position: relative;
+    left: 170px;
+}
+#monkey img{
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:-200px;
+    z-index: 15;
+    
+
+}
+#section{
+    position: relative;
+}
+.hero{
+    min-height: 100vh;
+    padding-bottom: 120px;
+}
+#parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
